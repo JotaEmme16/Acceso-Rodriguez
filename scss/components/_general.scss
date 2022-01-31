@@ -1,0 +1,19 @@
+@import '../base/extends';
+/* Aspectos Generales de los HTML */
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+    @extend %flex;
+}
+section img{
+    width: 450px;
+    height: 450px;
+    border: solid black;
+}
+/* Fin Aspectos Generales de los HTML */

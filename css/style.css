@@ -1,0 +1,411 @@
+@charset "UTF-8";
+footer nav ul .tik, footer nav ul .tw, footer nav ul .ig, footer nav ul .fb {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.div-imagenes, .region-cordoba h2, .region-cuyo h2, .region-bsas h2, .region-norte h2, .region-litoral h2, .region-patagonia h2, h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Aspectos Generales de los HTML */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+section img {
+  width: 450px;
+  height: 450px;
+  border: solid black;
+}
+
+/* Fin Aspectos Generales de los HTML */
+/* Estilos del HEADER */
+header {
+  background-color: #74ACDF;
+}
+header nav {
+  border: solid;
+  background-color: #142B89;
+}
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul .nav-link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 0.5s;
+}
+header nav ul .nav-link:hover {
+  color: #ffffff;
+  background-color: #38b6ff;
+  box-shadow: 0 0 10px #38b6ff, 0 0 40px #38b6ff, 0 0 80px #38b6ff;
+  border-radius: 5px;
+  letter-spacing: 3px;
+}
+
+.logo-header {
+  width: 250px;
+  height: 250px;
+  margin-left: 620px;
+  transition: all 0.5s;
+}
+.logo-header:hover {
+  transform: scale(1.1);
+}
+
+/* Fin Estilos del HEADER */
+footer nav ul .tik, footer nav ul .tw, footer nav ul .ig, footer nav ul .fb {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.div-imagenes, .region-cordoba h2, .region-cuyo h2, .region-bsas h2, .region-norte h2, .region-litoral h2, .region-patagonia h2, h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos del FOOTER */
+footer {
+  background-color: #74ACDF;
+}
+footer nav ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+.logo-footer {
+  width: 250px;
+  height: 250px;
+  margin-left: 620px;
+  transition: all 0.5s;
+}
+.logo-footer:hover {
+  transform: scale(1.1);
+}
+
+/* Fin Estilos del FOOTER */
+/* Estilos del INDEX */
+#sliders .col-lg-4 {
+  margin: 0 0 10px 0;
+  width: 415px;
+  height: 100%;
+}
+#sliders .col-lg-4 .slider-reg {
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+}
+#sliders .col-lg-4 .slider-reg img {
+  width: 100%;
+  height: 500px;
+}
+#sliders .col-lg-4 .slider-cur {
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+}
+#sliders .col-lg-4 .slider-cur img {
+  width: 100%;
+  height: 500px;
+}
+#sliders .col-lg-4 .slider-paq {
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+}
+#sliders .col-lg-4 .slider-paq img {
+  width: 100%;
+  height: 500px;
+}
+
+/* Fin Estilos del INDEX */
+/* Lista de colores para el fondo de cada Region */
+footer nav ul .fb, footer nav ul .ig, footer nav ul .tw, footer nav ul .tik {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.div-imagenes, .region-cordoba h2, .region-cuyo h2, .region-bsas h2, .region-norte h2, .region-litoral h2, .region-patagonia h2, h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos de REGIONES */
+/* Navegación Regiones */
+#galeria .col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
+#galeria .col-lg-4 .box {
+  position: relative;
+}
+#galeria .col-lg-4 .box:hover .capa {
+  transform: scale(1);
+}
+#galeria .col-lg-4 .box img {
+  width: 100%;
+  height: 450px;
+  border: solid black;
+}
+#galeria .col-lg-4 .box .capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  transform: scale(0);
+  transition: 0.2s ease;
+}
+
+/* Fin Navegación Regiones */
+.back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+
+/* Regiones del País */
+.region-patagonia {
+  background-color: #004aad;
+}
+.region-patagonia h2 {
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.region-patagonia .p-regiones {
+  width: 100%;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.region-litoral {
+  background-color: #ff1616;
+}
+.region-litoral h2 {
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.region-litoral .p-regiones {
+  width: 100%;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.region-norte {
+  background-color: #c9e265;
+}
+.region-norte h2 {
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.region-norte .p-regiones {
+  width: 100%;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.region-bsas {
+  background-color: #008037;
+}
+.region-bsas h2 {
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.region-bsas .p-regiones {
+  width: 100%;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.region-cuyo {
+  background-color: #cb6ce6;
+}
+.region-cuyo h2 {
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.region-cuyo .p-regiones {
+  width: 100%;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.region-cordoba {
+  background-color: #ff914d;
+}
+.region-cordoba h2 {
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.region-cordoba .p-regiones {
+  width: 100%;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.div-imagenes {
+  justify-content: space-around;
+  padding: 1% 0;
+}
+
+/* Fin Regiones del País */
+/* Fin Estilos de REGIONES */
+/* Estilos de CURIOSIDADES */
+.body-curiosidades {
+  background-color: #f4c713;
+}
+.body-curiosidades #curiosidades #titulo-cur {
+  color: white;
+}
+.body-curiosidades #curiosidades .col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
+.body-curiosidades #curiosidades .col-lg-4 img {
+  width: 100%;
+  height: 450px;
+  border: solid black;
+}
+.body-curiosidades #curiosidades .col-lg-4 .p-curiosidades {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 100%;
+}
+
+/* Fin Estilos de CURIOSIDADES */
+/* Estilos de PAQUETES */
+#itinerarios .col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
+#itinerarios .col-lg-4 .p-paquetes {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* Fin Estilos de PAQUETES */
+/* Estilos de CONTACTO */
+.formulario {
+  margin: 20px;
+}
+
+/* Fin Estilos de CONTACTO */
+/* MEDIA QUERIES version MOBILE */
+@media only screen and (max-width: 480px) {
+  .logo-header, .logo-footer {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+
+  header nav ul li a {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 13px;
+  }
+
+  .p-regiones, .p-curiosidades, .p-paquetes {
+    font-size: 11px;
+  }
+
+  .fb, .ig, .tw, .tik {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .div-imagenes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 60px;
+  }
+}
+/* Fin MEDIA QUERIES version MOBILE */
+/* MEDIA QUERIES version TABLET */
+@media only screen and (min-width: 481px) and (max-width: 968px) {
+  .logo-header, .logo-footer {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+  }
+
+  header nav ul li a {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .p-regiones, .p-curiosidades, .p-paquetes {
+    font-size: 15px;
+  }
+
+  section img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .fb, .ig, .tw, .tik {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .div-imagenes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 110px;
+  }
+}
+/* Fin MEDIA QUERIES version TABLET */
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,90 @@
+/* MEDIA QUERIES version MOBILE */
+@media only screen and (max-width: 480px){
+    .logo-header, .logo-footer{
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                    font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    h1{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 13px;
+    }
+    .p-regiones, .p-curiosidades, .p-paquetes{
+        font-size: 11px;
+    }
+    .fb, .ig, .tw, .tik {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+    .back-to-top{
+        display: none;
+    }
+    .div-imagenes{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 60px;
+    }
+}
+/* Fin MEDIA QUERIES version MOBILE */
+/* MEDIA QUERIES version TABLET */
+@media only screen and (min-width: 481px) and (max-width: 968px){
+    .logo-header, .logo-footer{
+        width: 200px;
+        height: 200px;
+        margin: 0;
+    }
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                    font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .p-regiones, .p-curiosidades, .p-paquetes{
+        font-size: 15px;
+    }
+    section img{
+        width: 300px;
+        height: 300px;
+    }
+    .fb, .ig, .tw, .tik {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+    }
+    .back-to-top{
+        display: none;
+    }
+    .div-imagenes{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 110px;
+    }
+}
+/* Fin MEDIA QUERIES version TABLET */

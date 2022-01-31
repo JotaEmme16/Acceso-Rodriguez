@@ -1,0 +1,137 @@
+@import '../base/listas';
+@import '../base/extends';
+/* Estilos de REGIONES */
+/* Navegación Regiones */
+#galeria{
+    .col-lg-4{
+        margin: 0;
+        padding: 25px;
+        .box{
+            position: relative;
+            &:hover .capa{
+                transform: scale(1);
+            }
+            img{
+                width: 100%;
+                height: 450px;
+                border: solid black;
+            }
+            .capa{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 5%;
+                background-color: rgba(0, 0, 0, 0.5);
+                display: flex;
+                justify-content: center;
+                color: #ffffff;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-transform: uppercase;
+                transform: scale(0);
+                transition: .2s ease;
+            }
+        }
+    }
+}
+/* Fin Navegación Regiones */
+.back-to-top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+/* Regiones del País */
+.region-patagonia{
+    background-color: nth($colores, 1);
+    h2{
+        padding: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        @extend %flex;
+    }
+    .p-regiones{
+        width: 100%;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 10px;
+    }
+}
+.region-litoral{
+    background-color: nth($colores, 2);
+    h2{
+        padding: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        @extend %flex;
+    }
+    .p-regiones{
+        width: 100%;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 10px;
+    }
+}
+.region-norte{
+    background-color: nth($colores, 3);
+    h2{
+        padding: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        @extend %flex;
+    }
+    .p-regiones{
+        width: 100%;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 10px;
+    }
+}
+.region-bsas{
+    background-color: nth($colores, 4);
+    h2{
+        padding: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        @extend %flex;
+    }
+    .p-regiones{
+        width: 100%;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 10px;
+    }
+}
+.region-cuyo{
+    background-color: nth($colores, 5);
+    h2{
+        padding: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        @extend %flex;
+    }
+    .p-regiones{
+        width: 100%;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 10px;
+    }
+}
+.region-cordoba{
+    background-color: nth($colores, 6);
+    h2{
+        padding: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        @extend %flex;
+    }
+    .p-regiones{
+        width: 100%;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 10px;
+    }
+}
+.div-imagenes{
+    justify-content: space-around;
+    padding: 1% 0;
+    @extend %flex;
+}
+/* Fin Regiones del País */
+/* Fin Estilos de REGIONES */
