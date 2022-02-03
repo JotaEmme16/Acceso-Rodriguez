@@ -1,9 +1,10 @@
+@import '../base/mixins';
 /* Estilos de CURIOSIDADES */
 .body-curiosidades{
     background-color: #f4c713;
     #curiosidades{
         #titulo-cur{
-            color: white;
+            @include fondo(white)
         }
         .col-lg-4{
             margin: 0;
