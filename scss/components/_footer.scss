@@ -2,6 +2,18 @@
 /* Estilos del FOOTER */
 footer{
     background-color: #74ACDF;
+    .logo{
+        display: flex;
+        justify-content: center;
+        .logo-footer{
+            width: 250px;
+            height: 250px;
+            transition: all .5s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
     nav{
         ul{
             margin: 0;
@@ -21,15 +33,6 @@ footer{
                 @extend %redes;
             }
         }
-    }
-}
-.logo-footer{
-        width: 250px;
-        height: 250px;
-        margin-left: 620px;
-        transition: all .5s;
-    &:hover{
-        transform: scale(1.1);
     }
 }
 /* Fin Estilos del FOOTER */

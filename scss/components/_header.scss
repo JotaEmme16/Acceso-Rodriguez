@@ -1,6 +1,18 @@
 /* Estilos del HEADER */
 header{
     background-color: #74ACDF;
+    .logo{
+        display: flex;
+        justify-content: center;
+        .logo-header{
+            width: 250px;
+            height: 250px;
+            transition: all .5s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
     nav{
         border: solid;
         background-color: #142B89;
@@ -20,15 +32,6 @@ header{
                     }
             }
         }
-    }
-}
-.logo-header{
-            width: 250px;
-            height: 250px;
-            margin-left: 620px;
-            transition: all .5s;
-        &:hover{
-            transform: scale(1.1);
     }
 }
 /* Fin Estilos del HEADER */
