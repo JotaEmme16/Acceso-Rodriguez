@@ -14,5 +14,3 @@ Tengo 25 años y soy Licenciado en Turismo. Hace un tiempo que quería ingresar 
 
 ## 🛠 Habilidades aprendidas
 HTML, CSS, Bootstrap, SASS.
-
-# Acceso-Rodriguez
