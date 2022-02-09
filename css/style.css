@@ -324,81 +324,102 @@ footer nav ul .fb, footer nav ul .ig, footer nav ul .tw, footer nav ul .tik {
 /* Fin Estilos de CONTACTO */
 /* MEDIA QUERIES version MOBILE */
 @media only screen and (max-width: 480px) {
-  .logo-header, .logo-footer {
-    width: 100px;
-    height: 100px;
-    margin: 0;
-  }
-
-  header nav ul li a {
-    font-size: 10px;
-  }
-
-  h1 {
-    font-size: 15px;
-  }
-
-  h2 {
-    font-size: 13px;
-  }
-
-  .p-regiones, .p-curiosidades, .p-paquetes {
-    font-size: 11px;
-  }
-
+  /* Footer */
   .fb, .ig, .tw, .tik {
     width: 30px;
     height: 30px;
     padding: 5px;
   }
 
+  /* Fin Footer */
+  /* Index */
+  #sliders .slider-reg {
+    width: 300px;
+    height: 300px;
+  }
+  #sliders .slider-reg img {
+    width: 100%;
+    height: 300px;
+  }
+  #sliders .slider-cur {
+    width: 300px;
+    height: 300px;
+  }
+  #sliders .slider-cur img {
+    width: 100%;
+    height: 300px;
+  }
+  #sliders .slider-paq {
+    width: 300px;
+    height: 300px;
+  }
+  #sliders .slider-paq img {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* Index */
+  /* Regiones */
   .back-to-top {
     display: none;
   }
 
   .div-imagenes {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin-left: 60px;
   }
-}
-/* Fin MEDIA QUERIES version MOBILE */
-/* MEDIA QUERIES version TABLET */
-@media only screen and (min-width: 481px) and (max-width: 968px) {
-  .logo-header, .logo-footer {
-    width: 200px;
-    height: 200px;
-    margin: 0;
+  .div-imagenes img {
+    margin-bottom: 10px;
   }
 
-  header nav ul li a {
-    font-size: 15px;
-  }
-
-  h1 {
-    font-size: 25px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  .p-regiones, .p-curiosidades, .p-paquetes {
-    font-size: 15px;
-  }
-
-  section img {
+  /* Fin Regiones */
+  /* Paquetes */
+  .fotografias {
     width: 300px;
     height: 300px;
   }
 
+  /* Fin Paquetes */
+}
+/* Fin MEDIA QUERIES version MOBILE */
+/* MEDIA QUERIES version TABLET */
+@media only screen and (min-width: 481px) and (max-width: 968px) {
+  /* Footer */
   .fb, .ig, .tw, .tik {
     width: 40px;
     height: 40px;
     padding: 5px;
   }
 
+  /* Fin Footer */
+  /* Index */
+  #sliders .slider-reg {
+    width: 300px;
+    height: 400px;
+  }
+  #sliders .slider-reg img {
+    width: 100%;
+    height: 400px;
+  }
+  #sliders .slider-cur {
+    width: 300px;
+    height: 400px;
+  }
+  #sliders .slider-cur img {
+    width: 100%;
+    height: 400px;
+  }
+  #sliders .slider-paq {
+    width: 300px;
+    height: 400px;
+  }
+  #sliders .slider-paq img {
+    width: 100%;
+    height: 400px;
+  }
+
+  /* Index */
+  /* Regiones */
   .back-to-top {
     display: none;
   }
@@ -406,9 +427,21 @@ footer nav ul .fb, footer nav ul .ig, footer nav ul .tw, footer nav ul .tik {
   .div-imagenes {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin-left: 110px;
   }
+  .div-imagenes img {
+    width: 250px;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+
+  /* Fin Regiones */
+  /* Paquetes */
+  .fotografias {
+    width: 400px;
+    height: 400px;
+  }
+
+  /* Fin Paquetes */
 }
 /* Fin MEDIA QUERIES version TABLET */
 
