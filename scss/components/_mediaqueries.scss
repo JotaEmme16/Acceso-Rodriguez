@@ -9,28 +9,31 @@
     /* Fin Footer */
     /* Index */
     #sliders{
-        .slider-reg{
-            width: 300px;
-            height: 300px;
+        .col-lg-4{
+            width: 100%;
+            .slider-reg{
+                width: 300px;
+                height: 300px;
             img{
                 width: 100%;
                 height: 300px;
             }
-        }
-        .slider-cur{
-            width: 300px;
-            height: 300px;
+            }
+            .slider-cur{
+                width: 300px;
+                height: 300px;
             img{
                 width: 100%;
                 height: 300px;
             }
-        }
-        .slider-paq{
-            width: 300px;
-            height: 300px;
+            }
+            .slider-paq{
+                width: 300px;
+                height: 300px;
             img{
                 width: 100%;
                 height: 300px;
+            }
             }
         }
     }

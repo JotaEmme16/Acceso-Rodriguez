@@ -279,7 +279,6 @@ footer nav ul .fb, footer nav ul .ig, footer nav ul .tw, footer nav ul .tik {
 
 .div-imagenes {
   justify-content: space-around;
-  padding: 1% 0;
 }
 
 /* Fin Regiones del País */
@@ -333,27 +332,30 @@ footer nav ul .fb, footer nav ul .ig, footer nav ul .tw, footer nav ul .tik {
 
   /* Fin Footer */
   /* Index */
-  #sliders .slider-reg {
+  #sliders .col-lg-4 {
+    width: 100%;
+  }
+  #sliders .col-lg-4 .slider-reg {
     width: 300px;
     height: 300px;
   }
-  #sliders .slider-reg img {
+  #sliders .col-lg-4 .slider-reg img {
     width: 100%;
     height: 300px;
   }
-  #sliders .slider-cur {
+  #sliders .col-lg-4 .slider-cur {
     width: 300px;
     height: 300px;
   }
-  #sliders .slider-cur img {
+  #sliders .col-lg-4 .slider-cur img {
     width: 100%;
     height: 300px;
   }
-  #sliders .slider-paq {
+  #sliders .col-lg-4 .slider-paq {
     width: 300px;
     height: 300px;
   }
-  #sliders .slider-paq img {
+  #sliders .col-lg-4 .slider-paq img {
     width: 100%;
     height: 300px;
   }
